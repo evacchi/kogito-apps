@@ -55,7 +55,7 @@ public abstract class BaseJobResourceIT {
     public static final int PRIORITY = 1;
 
     @ConfigProperty(name = "quarkus.http.test-port")
-    private int port;
+    public int port;
 
     @Inject
     public ObjectMapper objectMapper;

@@ -59,7 +59,7 @@ public abstract class BaseKeycloakJobServiceIT {
     }
 
     @Inject
-    private ObjectMapper objectMapper;
+    public ObjectMapper objectMapper;
 
     @Test
     void create() throws Exception {
